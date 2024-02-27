@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar ">
+            <div class="nav_logo border"></div>
+            <div class="nav_address border">
+                <span class="nav_address_1">Dilever to</span>
+                <span class="nav_address_2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path
+                            d="M13.6177 21.367C13.1841 21.773 12.6044 22 12.0011 22C11.3978 22 10.8182 21.773 10.3845 21.367C6.41302 17.626 1.09076 13.4469 3.68627 7.37966C5.08963 4.09916 8.45834 2 12.0011 2C15.5439 2 18.9126 4.09916 20.316 7.37966C22.9082 13.4393 17.599 17.6389 13.6177 21.367Z"
+                            stroke="#ffff" stroke-width="1.5" />
+                        <path
+                            d="M15.5 11C15.5 12.933 13.933 14.5 12 14.5C10.067 14.5 8.5 12.933 8.5 11C8.5 9.067 10.067 7.5 12 7.5C13.933 7.5 15.5 9.067 15.5 11Z"
+                            stroke="#ffff" stroke-width="1.5" />
+                    </svg>
+                    <p>India</p>
+                </span>
+            </div>
+            <div class="search">
+                <select name="" id="" class="search_option">
+                    <option value="">All</option>
+                </select>
+                <input type="" placeholder="search amazon" class="search_input">
+                <div class="search_btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M17.5 17.5L22 22" stroke="#000000" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path
+                            d="M20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C15.9706 20 20 15.9706 20 11Z"
+                            stroke="#000000" stroke-width="1.5" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="nav_sign_in border">
+                <span class="sign_in_1">Hello ,sign in</span>
+                <span class="sign_in_2">
+                    <p>Account & list</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="#ffff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </span>
+            </div>
+            <div class="return_order border">
+                <span class="return_order_1"> Returns</span>
+                <span class="return_order_2">& Orders</span>
+            </div>
+            <div class="cart border">
+                <div class="cart_svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none">
+                        <path
+                            d="M2 2H3.30116C4.48672 2 5.0795 2 5.4814 2.37142C5.88331 2.74285 5.96165 3.36307 6.11834 4.60351L7.24573 13.5287C7.45464 15.1826 7.5591 16.0095 8.09497 16.5048C8.63085 17 9.42122 17 11.002 17H21"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" />
+                        <circle cx="10.5" cy="19.5" r="1.5" stroke="#ffffff" stroke-width="1.5" />
+                        <circle cx="17.5" cy="19.5" r="1.5" stroke="#ffffff" stroke-width="1.5" />
+                        <path
+                            d="M20 14H14C13.0572 14 12.5858 14 12.2929 13.6339C12 13.2678 12 12.6785 12 11.5C12 10.3215 12 9.73223 12.2929 9.36612C12.5858 9 13.0572 9 14 9H20C20.9428 9 21.4142 9 21.7071 9.36612C22 9.73223 22 10.3215 22 11.5C22 12.6785 22 13.2678 21.7071 13.6339C21.4142 14 20.9428 14 20 14Z"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M18 9H12C11.0572 9 10.5858 9 10.2929 8.63388C10 8.26777 10 7.67851 10 6.5C10 5.32149 10 4.73223 10.2929 4.36612C10.5858 4 11.0572 4 12 4H18C18.9428 4 19.4142 4 19.7071 4.36612C20 4.73223 20 5.32149 20 6.5C20 7.67851 20 8.26777 19.7071 8.63388C19.4142 9 18.9428 9 18 9Z"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <p>Cart</p>
+            </div>
+        </div>
+        <div class="nav_shop_servics">
+
+            <span class="menu border2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                    <path d="M4 5L20 5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M4 12L20 12" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M4 19L20 19" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                <span>All</span>
+            </span>
+            <p class="border2">Today's Deals</p>
+            <p class="border2">Customer Service</p>
+            <p class="border2">Registry</p>
+            <p class="border2">Gift Cards</p>
+            <p class="border2">Sell</p>
+        </div>
+    </header>
+    <div class="mainbody">
+        <div class="amazon-in">You are on amazon.com. You can also shop on Amazon India for millions of products with
+            fast local delivery. <a href="#">Click here to go to amazon.in</a></div>
+    </div>
+    <div class="shopping-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <h2>Gaming accessories</h2>
+                <div class="box-image" style="background-image: url('images/amazon_first.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Amazon Gadget Store</h2>
+                <div class="box-image" style="background-image: url('images/amazon_second.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Deals in PCs</h2>
+                <div class="box-image" style="background-image: url('images/amazon_third.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Shop activity trackers and smartwatches</h2>
+                <div class="box-image" style="background-image: url('images/amazon_four.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Gaming merchandise</h2>
+                <div class="box-image" style="background-image: url('images/amazon_five.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Player's paradise starts here</h2>
+                <div class="box-image" style="background-image: url('images/amazon_six.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>A whole new way to work</h2>
+                <div class="box-image" style="background-image: url('images/amazon_seven.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+        <div class=" box">
+            <div class="box-content">
+                <h2>Handpicked music & audio</h2>
+                <div class="box-image" style="background-image: url('images/amazon_eight.png');"></div>
+                <p>See more</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-panel1">
+            Back to top
+        </div>
+        <div class="footer-panel2">
+            <div class="footer-panel2-content">
+                <ul>
+                    <h4>Get to Know Us</h4>
+                    <a>Careers</a>
+                    <a>Blog</a>
+                    <a>About Amazon</a>
+                    <a>Investor Relations</a>
+                    <a>Amazon Devices</a>
+                    <a> Amazon Science</a>
+                </ul>
+
+                <ul>
+                    <h4>Make Money with Us</h4>
+                    <a href=""> Sell products on Amazon </a>
+                    <a href=""> Sell on Amazon Business</a>
+                    <a href="">Sell apps on Amazon</a>
+                    <a href="">Become an Affiliate</a>
+                    <a href="">Advertise Your Products</a>
+                    <a href=""> Self-Publish with Us</a>
+                    <a href="">Host an Amazon Hub</a>
+                    <a href=""> ›See More Make Money with Us</a>
+                </ul>
+
+                <ul>
+                    <h4>Amazon Payment Products</h4>
+                    <a href="">Amazon Business Card</a>
+                    <a href=""> Shop with Points</a>
+                    <a href="">Reload Your Balance</a>
+                    <a href=""> Amazon Currency Converter</a>
+                </ul>
+
+                <ul>
+                    <h4>Let Us Help You</h4>
+                    <a href="">Amazon and COVID-19</a>
+                    <a href=""> Your Account</a>
+                    <a href="">Your Orders</a>
+                    <a href=""> Shipping Rates & Policies</a>
+                    <a href="">Returns & Replacements</a>
+                    <a href=""> Manage Your Content and Devices</a>
+                    <a href=""> Amazon Assistant</a>
+                    <a href="">Help</a>
+                </ul>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="footer-panel3">
+            <div class="footer-panel3-content">
+                <div class="amazonlogo"></div>
+                <div class="language">
+
+                    <p>English</p>
+                </div>
+                <div class="Pay-method">usd$</div>
+                <div class="country">united state</div>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+</body>
+
+</html>
