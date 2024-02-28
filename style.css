@@ -156,7 +156,7 @@
 }
 .mainbody{
     height: 400px;
-    background-image: url("/images/amazon_back_img.jpg");
+    background-image: url("images/amazon_back_img.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
